@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-
 *
 {
-  font-family: 'Quicksand',sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,8 +31,8 @@ body{
 
 .page-container
 {
-  display:flex;
-  width:100vw;
+  display: flex;
+  width: 100vw;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
@@ -47,7 +46,7 @@ body{
 
 .left-container
 {
-  width:45%;
+  width: 45%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +55,7 @@ body{
 
 .login-container
 {
-  width:50%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,13 +71,13 @@ body{
   width: 60%;
   margin: 0.5rem 0;
   padding: 1rem 0;
-  background-color:#1A1A40;
+  background-color: #1A1A40;
   font-size: 16px;
   border-radius: 30px;
   color: white;
   cursor: pointer;
   align-self: center;
-  transition:transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .left-login:hover
@@ -105,13 +104,13 @@ body{
 .left-text
 {
   font-size: 18px;
-  color:#ffffffd5;
+  color: #ffffffd5;
 }
 
 .left-img
 {
-  width:350px;
-  height:350px;
+  width: 350px;
+  height: 350px;
 }
 
 .header
@@ -128,23 +127,24 @@ body{
 {
   color: #fff;
   font-weight: 600;
-  font-size:32px;
+  font-size: 32px;
 }
 
 .HomeInput
 {
-  outline:none;
+  outline: none;
   background: transparent;
-  border:1px solid #8758ff;
-  padding:0.5rem 1rem;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  width:300px;
-  color:#fff;
+  width: 300px;
+  color: #fff;
   font-size: 16px;
 }
 
-.home-icon{
+.home-icon
+{
   color: white;
   margin-right: 0.6rem;
 }
@@ -156,14 +156,15 @@ body{
 
 .forgot-password
 {
-  text-align:left;
+  text-align: left;
   font-size: 16px;
-  color:#ffffff4d;
+  color: #ffffff4d;
   margin-top: -0.5rem;
   cursor: pointer;
 }
 
-span{
+span
+{
   color: white;
   text-decoration: underline;
   cursor: pointer;
@@ -182,30 +183,31 @@ span{
   width: 100%;
   margin: 1.5rem 0;
   padding: 1rem 0;
-  background-color:#8758FF;
+  background-color: #8758FF;
   font-size: 14px;
   border-radius: 30px;
   color: white;
   cursor: pointer;
-  transition:transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 label
 {
-  color:rgba(255, 255, 255, 0.719);
-  font-size:16px;
-  margin-left:0.3rem;
+  color: rgba(255, 255, 255, 0.719);
+  font-size: 16px;
+  margin-left: 0.3rem;
 }
 
 .input-check
 {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
+
 #sign-in
 {
-  margin-right:0.5rem;
+  margin-right: 0.5rem;
 }
 
 .App
@@ -213,7 +215,8 @@ label
   text-align: center;
 }
 
-h1{
+h1
+{
   color: #fff;
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
@@ -223,26 +226,26 @@ h1{
 {
   background: #1a1a40;
   margin-top: 2rem;
-  padding:2rem;
+  padding: 2rem;
   border: 5px;
 }
 
 .TodoForm
 {
-  width:100%;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
 .todo-input
 {
-  outline:none;
+  outline: none;
   background: none;
-  border:1px solid #8758ff;
-  padding:0.5rem 1rem;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  width:300px;
-  color:#fff;
+  width: 300px;
+  color: #fff;
 }
 
 .todo-input::placeholder
@@ -253,10 +256,10 @@ h1{
 .todo-btn
 {
   background: #8758ff;
-  color:#fff;
-  border:none;
-  padding:0.55rem;
-  cursor:pointer;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
 }
 
 .Todo
@@ -265,45 +268,187 @@ h1{
   justify-content: space-between;
   align-items: center;
   background: #8758ff;
-  color:#fff;
-  padding:0.75rem 1rem;
-  border-radius:5px;
-  margin-bottom:1rem;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 .fa-trash
 {
-  margin-left:0.75rem;
+  margin-left: 0.75rem;
 }
 
 .incompleted
 {
-  color:#fff;
+  color: #fff;
   cursor: pointer;
 }
 
 .completed
 {
-  color:#c5aeff;
+  color: #c5aeff;
   text-decoration: line-through;
   cursor: pointer;
 }
 
 .edit-icon,
-.delete-icon{
+.delete-icon
+{
   cursor: pointer;
 }
 
 footer
 {
-  position:fixed;
-  left:0;
-  bottom:0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   display: flex;
-  padding:0.6rem 1.2rem;
+  padding: 0.6rem 1.2rem;
   justify-content: space-between;
   align-items: center;
   background-color: #1A1A40;
   color: #fff;
-  width:100vw;
+  width: 100vw;
+}
+
+@media (max-width: 868px) {
+  .page-container
+  {
+    flex-direction: column;
+  }
+  .left-container, .login-container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .left-img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .left-login, .submit {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .text {
+    font-size: 28px;
+  }
+
+  .header {
+    gap: 6px;
+  }
+
+  .HomeInput {
+    width: 350px;
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 1rem 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .forgot-password
+  {
+    font-size: 16px;
+  }
+
+  .left-side h1
+  {
+    font-size: 42px;
+  }
+
+  .Login-heading{
+    font-size: 42px;
+  }
+
+  #sign-in
+  {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-container
+  {
+    flex-direction: column;
+  }
+
+  .left-side
+  {
+    align-items: center;
+  }
+
+  .forgot-password
+  {
+    font-size: 14px;
+  }
+
+  .Login-heading{
+    font-size: 28px;
+  }
+
+  .left-side h1
+  {
+    font-size: 32px;
+  }
+  /* .left-container, .login-container {
+    width: 100%;
+    padding: 0.5rem;
+  } */
+
+  .container
+  {
+    padding:2rem;
+    margin-bottom: 5rem;
+  }
+
+  .left-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .left-login, .submit {
+    width: 75%;
+    font-size: 12px;
+  }
+
+  .left-text
+  {
+    font-size: 14px;
+  }
+
+  label
+  {
+    font-size:12px;
+  }
+  .text {
+    font-size: 24px;
+  }
+
+  .header {
+    gap: 4px;
+  }
+
+  .HomeInput {
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .TodoWrapper
+  {
+    width: 350px;
+  }
+
+  .todo-input
+  {
+    width: 200px;
+  }
+
+  footer
+  {
+    flex-direction: column;
+  }
 }
