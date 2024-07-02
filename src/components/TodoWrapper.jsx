@@ -52,6 +52,7 @@ const TodoWrapper = () => {
       ...todo, task, isEditing: !todo.isEditing
     } : todo));
   };
+  
 
   return (
     <div className='TodoWrapper'>
