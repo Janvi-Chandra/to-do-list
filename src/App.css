@@ -19,7 +19,7 @@ body{
 
 .left-side h1
 {
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 700;
 }
 
@@ -36,11 +36,13 @@ body{
   width:100vw;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .Login-heading
 {
-  padding-top: 2rem;
+  padding-top: 4rem;
+  font-size: 38px;
 }
 
 .left-container
@@ -67,11 +69,11 @@ body{
 
 .left-login
 {
-  width: 45%;
+  width: 60%;
   margin: 0.5rem 0;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   background-color:#1A1A40;
-  font-size: 12px;
+  font-size: 16px;
   border-radius: 30px;
   color: white;
   cursor: pointer;
@@ -96,20 +98,20 @@ body{
   margin: auto;
   margin-top: 2rem;
   background: #1A1A40;
-  padding: 0.4rem 1rem;
+  padding: 1rem 2rem;
   margin-bottom: 2rem;
 }
 
 .left-text
 {
-  font-size: 14px;
+  font-size: 18px;
   color:#ffffffd5;
 }
 
 .left-img
 {
-  width:270px;
-  height:270px;
+  width:350px;
+  height:350px;
 }
 
 .header
@@ -126,7 +128,7 @@ body{
 {
   color: #fff;
   font-weight: 600;
-  font-size:28px;
+  font-size:32px;
 }
 
 .HomeInput
@@ -137,9 +139,9 @@ body{
   padding:0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  width:230px;
+  width:300px;
   color:#fff;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .home-icon{
@@ -155,7 +157,7 @@ body{
 .forgot-password
 {
   text-align:left;
-  font-size: 12px;
+  font-size: 16px;
   color:#ffffff4d;
   margin-top: -0.5rem;
   cursor: pointer;
@@ -179,15 +181,28 @@ span{
 {
   width: 100%;
   margin: 1.5rem 0;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   background-color:#8758FF;
-  font-size: 12px;
+  font-size: 14px;
   border-radius: 30px;
   color: white;
   cursor: pointer;
   transition:transform 0.3s ease;
 }
 
+label
+{
+  color:rgba(255, 255, 255, 0.719);
+  font-size:16px;
+  margin-left:0.3rem;
+}
+
+.input-check
+{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
 #sign-in
 {
   margin-right:0.5rem;
@@ -277,4 +292,18 @@ h1{
 .edit-icon,
 .delete-icon{
   cursor: pointer;
+}
+
+footer
+{
+  position:fixed;
+  left:0;
+  bottom:0;
+  display: flex;
+  padding:0.6rem 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A1A40;
+  color: #fff;
+  width:100vw;
 }
