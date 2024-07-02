@@ -3,10 +3,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
 import { faUser} from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import logo from '../Assets/To do list-rafiki.png'
 
 const Home = () => {
   return (
-    <div>
+    <div className='page-container'>
+
+      <div className='left-container'>
+        <div className="left-side">
+          <h1>Welcome to the </h1>
+          <h1>Check-it List!</h1>
+          <img src={logo} className='left-img'/>
+          <p className='left-text'>Already have an account? Let's log you in</p>
+          <div className="left-login">Login</div>
+        </div>
+      </div>
 
       <div className="container">
         <div className="header">
