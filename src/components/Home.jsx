@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
 import { faUser} from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import logo from '../Assets/To do list-rafiki.png'
+import logo from '../Assets/home-img.png'
 
 const Home = () => {
   return (
